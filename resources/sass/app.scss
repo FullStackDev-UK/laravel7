@@ -1,1 +1,76 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: #ddd;
+}
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+
+.red-header {
+    background-color: #c0392b;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-cta {
+    color: #fff;
+    background-color: #c0392b;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    line-height: 1.6rem !important;
+}
+
+.btn-cta:hover, .btn-cta:focus, .btn-cta:active {
+    color: #c0392b;
+    background-color: #fff;
+    border: 1px solid #c0392b;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+.closeResults, .closeResults:hover {
+    color: #c0392b;
+    text-decoration: none;
+    font-weight: bold;
+    outline: none;
+}
+
+.fa {
+  transition: .3s transform ease-in-out;
+}
+.collapsed .fa {
+  transform: rotate(-90deg);
+}
+
+#map {
+    height: 300px !important;
+    max-height: 300px !important;
+    width: 600px !important;
+    max-width: 600px !important;
+    position: relative !important;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.map {
+    height: 300px !important;
+    max-height: 300px !important;
+    width: 600px !important;
+    max-width: 600px !important;
+    position: relative !important;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+}
